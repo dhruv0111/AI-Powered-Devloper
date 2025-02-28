@@ -84,7 +84,7 @@ export const addUsersToProject = async ({ projectId, users, userId }) => {
     }, {
         $addToSet: {
             users: {
-                $each: users
+                $each: users0
             }
         }
     }, {
